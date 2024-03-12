@@ -3,6 +3,7 @@
 .title__h.ukraine {
   color: blue;
 }
+
 .main .peace {
   color: blueviolet;
 }
@@ -36,6 +37,11 @@ h2.freedom {
 
 .poem {
   color: rgb(126, 95, 56);
+}
+
+.poem > p {
+  color: brown !important;
+  /* Але ми !important не використовуємо, це заборонене закляття */
 }
 
 .poem > p {
