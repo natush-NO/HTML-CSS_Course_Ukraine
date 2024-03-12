@@ -1,0 +1,62 @@
+@import url("reset.css");
+
+.title__h.ukraine {
+  color: blue;
+}
+
+.main .peace {
+  color: blueviolet;
+}
+
+.main a {
+  color: red;
+}
+
+.freedom,
+.history,
+.war,
+.support {
+  color: brown;
+}
+
+h2.freedom {
+  color: rgb(187, 187, 29);
+}
+
+.title {
+  color: rgb(30, 63, 52);
+}
+
+.text-peace * {
+  color: green;
+}
+
+#peace {
+  color: rgb(0, 34, 255);
+}
+
+
+.poem {
+  color: rgb(126, 95, 56);
+}
+
+.poem > p {
+  color: brown !important;
+  /* Але ми !important не використовуємо, це заборонене закляття */
+}
+
+.poem > p {
+  color: burlywood;
+}
+
+.shevchenko {
+  color: rgb(72, 54, 29);
+}
+
+.poem ~ div {
+  color: blue;
+}
+
+.glory + div {
+  color: rgb(187, 187, 29);
+}
