@@ -9,7 +9,7 @@
 }
 
 .main a {
-  color: blue;
+  color: red;
 }
 
 .freedom,
@@ -23,10 +23,6 @@ h2.freedom {
   color: rgb(187, 187, 29);
 }
 
-#war {
-  color: red;
-}
-
 .title {
   color: rgb(30, 63, 52);
 }
@@ -34,6 +30,11 @@ h2.freedom {
 .text-peace * {
   color: green;
 }
+
+#peace {
+  color: rgb(0, 34, 255);
+}
+
 
 .poem {
   color: rgb(126, 95, 56);
