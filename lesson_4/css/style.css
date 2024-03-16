@@ -1,0 +1,76 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Google Fonts (Plugin) */
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+Bassa+Vah:regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Katibeh:regular);
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+@import url("reset.css");
+
+.list {
+  text-align: center;
+  color: blue;
+  font-size: 50px;
+  font-family: "Lato", "Futura", sans-serif;
+  font-weight: 500;
+  line-height: 2;
+  white-space: nowrap;
+}
+
+a {
+  text-decoration: underline;
+  text-decoration-color: rgb(21, 21, 184);
+}
+
+.cat {
+  font-family: "Noto Sans Bassa Vah", "Katibeh", "Milliard", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.bonya {
+  color: rgb(47, 45, 49);
+  font-size: 70px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-shadow: 2px 2px 3px #343232, 5px -2px 5px rgb(152, 103, 103);
+}
+
+.text-cat {
+  font-size: 20px;
+  font-style: oblique;
+  word-spacing: 2px;
+  line-height: 2;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: rgb(123, 24, 24);
+}
+
+.furniture {
+  color: #2b2929;
+  font-family: "Proxima Nova Rg", sans-serif;
+  text-align: left;
+  font-weight: 400;
+}
+
+.titel {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.titel-choice {
+  text-align: center;
+}
+
+.text {
+  line-height: 1.875;
+}
+
+.titel-site {
+  font-size: 20px;
+  line-height: 1.4;
+}
