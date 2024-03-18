@@ -49,15 +49,17 @@ a {
   line-height: 2;
   text-decoration-line: underline;
   text-decoration-style: dashed;
-  text-decoration-color: rgb(123, 24, 24);
+  text-decoration-color: rgb(161, 33, 33);
 }
 
-.text-too {
+.text-two {
   font-family: "Noto Sans";
+  text-decoration-color: rgb(156, 42, 154);
 }
 
 .text-three {
   font-family: "Open Sans";
+  text-decoration-color: rgb(103, 43, 183);
 }
 
 .furniture {
