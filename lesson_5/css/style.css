@@ -229,6 +229,10 @@ main {
   font-weight: 500;
 }
 
+.margin-h-six {
+  margin-bottom: 60px;
+}
+
 .section-photos {
   margin: 0 -12px;
 }
