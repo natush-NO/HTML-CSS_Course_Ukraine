@@ -48,7 +48,7 @@ main {
   font-weight: 500;
   text-align: center;
   margin: 0 auto;
-  max-width: 1920px;
+  width: 1920px;
   background-color: rgb(251, 250, 250);
 }
 
@@ -85,7 +85,7 @@ main {
 }
 
 .furniture {
-  max-width: 960px;
+  width: 960px;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -107,7 +107,7 @@ main {
 }
 
 .section-rom {
-  max-width: 1070px;
+  width: 1070px;
   margin: 0 auto;
 }
 
@@ -143,7 +143,7 @@ main {
 }
 
 .construction {
-  max-width: 1290px;
+  width: 1290px;
   margin: 0 auto;
   background-color: #f8f8f8;
   overflow: hidden;
@@ -193,7 +193,7 @@ main {
 }
 
 .construction-clothes {
-  max-width: 1920px;
+  width: 1920px;
   background-color: rgba(31, 41, 51, 0.057);
   padding: 100px 300px;
   margin: 0 auto;
@@ -201,7 +201,7 @@ main {
 }
 
 .section-clothes {
-  max-width: 1320px;
+  width: 1320px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -214,7 +214,7 @@ main {
 }
 
 .clothes-h {
-  max-width: 1013px;
+  width: 1013px;
   margin: 0 auto;
 }
 
@@ -230,5 +230,5 @@ main {
 }
 
 .section-photos {
-  max-width: 1320px;
+  width: 1320px;
 }
