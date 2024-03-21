@@ -205,23 +205,24 @@ main {
 .construction-clothes {
   max-width: 1920px;
   margin: 0 auto;
-  padding: 70px;
+  /* padding: 100px px; */
   background-color: rgba(31, 41, 51, 0.057);
-  overflow: hidden;
 }
 
 .section-clothes {
   max-width: 1320px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .margin-h-six {
-  margin-bottom: 60px;
+  margin: 100px 0 60px 0;
 }
 
 .clothes-h {
   max-width: 1013px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .titel-h-six {
@@ -233,8 +234,7 @@ main {
 
 .section-photos {
   font-size: 0;
-  margin: 0 -12px;
-  overflow: hidden;
+  margin: 0 -12px 70px -12px;
 }
 
 .img-clothes {
