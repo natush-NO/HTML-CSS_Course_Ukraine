@@ -16,7 +16,6 @@ body {
   color: #2b2929;
   font-weight: 400;
   line-height: 1.875;
-  background-color: rgba(248, 248, 248, 0);
 }
 
 .construction-list {
@@ -138,7 +137,8 @@ main {
 }
 
 .li-section {
-  margin: 0 0 20px 47px;
+  padding: 0 0 0 47px;
+  margin: 0 0 20px 0;
 }
 
 .margin-this {
