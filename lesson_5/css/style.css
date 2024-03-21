@@ -140,8 +140,8 @@ main {
 }
 
 .li-section {
-  padding: 0 0 0 47px;
-  margin: 0 0 20px 0;
+  padding-left: 47px;
+  margin-bottom: 20px;
 }
 
 .margin-this {
