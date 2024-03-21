@@ -198,6 +198,10 @@ main {
   text-align: 1.308;
 }
 
+.margin-clothes {
+  margin-bottom: 50px;
+}
+
 .construction-clothes {
   max-width: 1920px;
   background-color: rgba(31, 41, 51, 0.057);
@@ -212,21 +216,10 @@ main {
   overflow: hidden;
 }
 
-.div-photos {
-  margin: 0 -12px;
-}
-.img-clothes {
-  padding: 0 12px;
-}
-
 .clothes-h {
   max-width: 1013px;
   margin: 0 auto;
   overflow: hidden;
-}
-
-.margin-h-six {
-  margin-bottom: 60px;
 }
 
 .titel-h-six {
@@ -237,5 +230,9 @@ main {
 }
 
 .section-photos {
-  max-width: 1320px;
+  margin: 0 -12px;
+}
+
+.img-clothes {
+  padding: 0 12px;
 }
