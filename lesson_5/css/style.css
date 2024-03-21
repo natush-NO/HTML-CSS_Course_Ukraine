@@ -19,6 +19,10 @@ body {
   background-color: rgba(248, 248, 248, 0);
 }
 
+.construction-list {
+  margin-bottom: 30px;
+}
+
 .list {
   text-align: center;
   color: blue;
@@ -27,7 +31,6 @@ body {
   font-weight: 700;
   line-height: 2;
   white-space: nowrap;
-  margin-bottom: 30px;
 }
 
 a {
@@ -216,6 +219,7 @@ main {
 .clothes-h {
   width: 1013px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .margin-h-six {
