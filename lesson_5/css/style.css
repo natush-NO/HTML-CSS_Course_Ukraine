@@ -40,7 +40,7 @@ a {
 }
 
 main {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .cat-bonya {
@@ -88,7 +88,13 @@ main {
   text-decoration-color: rgb(84, 30, 184);
 }
 
+/* "Як правильно обрати ліжко" */
+
 .furniture {
+  padding-bottom: 50px;
+}
+
+.choice {
   max-width: 960px;
   overflow: hidden;
   margin: 0 auto;
@@ -100,14 +106,16 @@ main {
   line-height: 1.2;
 }
 
-.choice {
-  margin-bottom: 50px;
-}
-
 .titel-choice {
   text-align: center;
   display: block;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+/* "Оформлення вітальні */
+
+.margin-room {
+  padding-bottom: 50px;
 }
 
 .section-rom {
@@ -116,32 +124,30 @@ main {
 }
 
 .room {
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .img-margin {
-  margin: 40px 0px;
+  padding: 40px 0px;
 }
 
 .section-crovato {
-  margin-bottom: 40px;
-}
-
-.selection {
-  margin-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 .titel-site {
   font-size: 20px;
   line-height: 1.4;
   display: block;
-  margin-bottom: 30px;
+  padding: 30px;
 }
 
 .li-section {
   padding-left: 47px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
+
+/* "Кровато це" */
 
 .margin-this {
   margin-bottom: 50px;
@@ -154,8 +160,8 @@ main {
   overflow: hidden;
 }
 
-.construction-this {
-  margin: 40px 0;
+.construction-titel {
+  padding: 40px 0;
 }
 
 .this-h {
@@ -186,20 +192,18 @@ main {
 }
 
 .img-mark {
-  margin-bottom: 20px;
+  padding: 20px;
 }
 
 .text-titel {
   font-size: 26px;
   font-weight: 600;
   display: block;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   text-align: 1.308;
 }
 
-.margin-clothes {
-  margin-bottom: 50px;
-}
+/* Блок "Одяг" */
 
 .construction-clothes {
   max-width: 1920px;
@@ -213,14 +217,11 @@ main {
   overflow: hidden;
 }
 
-.margin-h-six {
-  margin: 100px 0 60px 0;
-}
-
 .clothes-h {
   max-width: 1013px;
   margin: 0 auto;
   overflow: hidden;
+  padding: 100px 0 60px 0;
 }
 
 .titel-h-six {
@@ -232,7 +233,8 @@ main {
 
 .section-photos {
   font-size: 0;
-  margin: 0 -12px 70px -12px;
+  margin: 0 -12px;
+  padding-bottom: 70px;
 }
 
 .img-clothes {
