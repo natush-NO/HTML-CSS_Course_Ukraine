@@ -30,6 +30,9 @@ body {
   font-weight: 700;
   line-height: 2;
   white-space: nowrap;
+  max-width: ;
+  -width: 350px;
+  margin: 0 auto;
 }
 
 a {
@@ -50,7 +53,7 @@ main {
   font-weight: 500;
   text-align: center;
   margin: 0 auto;
-  width: 1290px;
+  max-width: 1290px;
   background-color: #f8f8f8;
 }
 
@@ -87,7 +90,7 @@ main {
 }
 
 .furniture {
-  width: 960px;
+  max-width: 960px;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -109,7 +112,7 @@ main {
 }
 
 .section-rom {
-  width: 1070px;
+  max-width: 1070px;
   margin: 0 auto;
 }
 
@@ -146,7 +149,7 @@ main {
 }
 
 .construction {
-  width: 1290px;
+  max-width: 1290px;
   margin: 0 auto;
   background-color: #f8f8f8;
   overflow: hidden;
@@ -157,7 +160,7 @@ main {
 }
 
 .this-h {
-  width: 238px;
+  max-width: 238px;
   margin: 0 auto;
 }
 
@@ -177,7 +180,7 @@ main {
 }
 
 .content {
-  width: 300px;
+  max-width: 300px;
   text-align: center;
   font-size: 16px;
   line-height: 1.875;
@@ -196,7 +199,7 @@ main {
 }
 
 .construction-clothes {
-  width: 1920px;
+  max-width: 1920px;
   background-color: rgba(31, 41, 51, 0.057);
   padding: 100px 300px;
   margin: 0 auto;
@@ -204,7 +207,7 @@ main {
 }
 
 .section-clothes {
-  width: 1320px;
+  max-width: 1320px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -217,7 +220,7 @@ main {
 }
 
 .clothes-h {
-  width: 1013px;
+  max-width: 1013px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -234,5 +237,6 @@ main {
 }
 
 .section-photos {
+  max-width: ;
   width: 1320px;
 }
