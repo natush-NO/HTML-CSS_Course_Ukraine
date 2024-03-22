@@ -130,13 +130,12 @@ main {
 /* На сайті інтернет магазину */
 
 .container-crovato {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .section-crovato {
   max-width: 1070px;
   margin: 0 auto;
-  padding-bottom: 40px;
 }
 
 .titel-site {
@@ -149,6 +148,10 @@ main {
 .li-section {
   padding-left: 47px;
   padding-bottom: 20px;
+}
+
+.container-selection {
+  margin-bottom: 50px;
 }
 
 .selection {
