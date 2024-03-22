@@ -134,6 +134,8 @@ main {
 }
 
 .section-crovato {
+  max-width: 1070px;
+  margin: 0 auto;
   padding-bottom: 40px;
 }
 
@@ -141,12 +143,17 @@ main {
   font-size: 20px;
   line-height: 1.4;
   display: block;
-  padding: 30px;
+  padding-bottom: 30px;
 }
 
 .li-section {
   padding-left: 47px;
   padding-bottom: 20px;
+}
+
+.selection {
+  max-width: 1070px;
+  margin: 0 auto;
 }
 
 /* "Кровато це" */
