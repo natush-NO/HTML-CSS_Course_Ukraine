@@ -117,6 +117,10 @@ main {
   margin-bottom: 30px;
 }
 
+.text-choice {
+  margin-bottom: 8px;
+}
+
 /* "Оформлення вітальні */
 
 .margin-room {
@@ -133,7 +137,7 @@ main {
 }
 
 .text-bottom {
-  margin-bottom: 11px;
+  margin-bottom: 9px;
 }
 
 /* На сайті інтернет магазину */
