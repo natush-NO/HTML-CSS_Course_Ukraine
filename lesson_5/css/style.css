@@ -72,10 +72,14 @@ main {
   word-spacing: 2px;
   line-height: 2;
   display: block;
-  margin-bottom: 20px;
   text-decoration-line: underline;
   text-decoration-style: dashed;
   text-decoration-color: rgb(161, 33, 33);
+}
+
+.text-one,
+.text-two {
+  margin-bottom: 20px;
 }
 
 .text-two {
@@ -86,6 +90,7 @@ main {
 .text-three {
   font-family: "Open Sans";
   text-decoration-color: rgb(84, 30, 184);
+  padding-bottom: 25px;
 }
 
 /* "Як правильно обрати ліжко" */
@@ -109,7 +114,7 @@ main {
 .titel-choice {
   text-align: center;
   display: block;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 /* "Оформлення вітальні */
@@ -124,7 +129,11 @@ main {
 }
 
 .img-margin {
-  padding: 40px 0px;
+  margin: 40px 0px;
+}
+
+.text-bottom {
+  margin-bottom: 11px;
 }
 
 /* На сайті інтернет магазину */
@@ -142,12 +151,12 @@ main {
   font-size: 20px;
   line-height: 1.4;
   display: block;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .li-section {
   padding-left: 47px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .container-selection {
@@ -210,7 +219,7 @@ main {
   font-size: 26px;
   font-weight: 600;
   display: block;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   line-height: 1.307;
 }
 
