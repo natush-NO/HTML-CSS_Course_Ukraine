@@ -1,0 +1,41 @@
+@import url("reset.css");
+
+.container-patern {
+  height: 800px;
+  background-image: url("../img/patern.webp");
+  box-shadow: inset 0 0 50px 20px rgba(119, 119, 119, 0.769);
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.arrow-bottom-big {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid #00000067;
+  margin: 0 auto;
+}
+
+.arrow-bottom-medium {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 100px solid #00000067;
+  margin: 0 auto;
+}
+
+.arrow-bottom-small {
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-top: 100px solid #00000067;
+  margin: 0 auto;
+}
+
+.photos-center {
+  display: block;
+  margin: 0 auto;
+}
