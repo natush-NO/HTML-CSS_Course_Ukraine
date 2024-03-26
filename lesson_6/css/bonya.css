@@ -1,0 +1,114 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Ubuntu+Condensed&display=swap");
+
+/* Google Fonts (Plugin) */
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+  font-family: "Proxima Nova", sans-serif;
+  color: #2b2929;
+  font-weight: 400;
+  line-height: 1.875;
+  background-color: rgba(193, 188, 188, 0.436);
+}
+
+main {
+  margin: 50px 0;
+}
+
+.container-bonya {
+  width: 1400px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 0.096) 0%,
+      rgba(237, 231, 127, 0.555) 82%
+    ),
+    url("../img/cat.jpg") 0 0 / 200px no-repeat;
+  border: 5px double #2b2929;
+  margin: 0 auto;
+  padding: 80px 100px 50px 100px;
+}
+
+.bonya {
+  outline: 15px dotted rgb(91, 90, 90);
+  outline-offset: 45px;
+  border-radius: 50%;
+  color: rgb(47, 45, 49);
+  font-size: 70px;
+  text-align: center;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  width: 250px;
+  display: inline-block;
+  text-shadow: 2px 2px 3px #343232, 5px -2px 5px rgb(152, 103, 103);
+}
+
+.link-bonya {
+  width: 100px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #2f2ff5;
+  white-space: nowrap;
+  border-radius: 40%;
+  border-bottom: 2px solid #2f2ff5;
+}
+
+.link-bonya:hover {
+  border-bottom: 2px solid transparent;
+}
+
+.link-bonya-focus:focus {
+  outline: 2px solid #2f2ff5;
+  border-radius: 40%;
+}
+
+.block-text-bony {
+  margin-top: 50px;
+}
+
+.text-cat {
+  font-size: 20px;
+  font-style: italic;
+  word-spacing: 2px;
+  line-height: 2;
+  display: inline;
+  outline: 1px solid #777;
+}
+
+.text-two {
+  font-family: "Noto Sans";
+}
+
+.text-three {
+  font-family: "Open Sans";
+}
+
+footer {
+  padding-bottom: 50px;
+}
+
+.margin-my {
+  margin-bottom: 50px;
+}
+
+.my {
+  width: 500px;
+  font-size: 50px;
+  background-image: url("../img/sky.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0.5;
+}
