@@ -114,8 +114,11 @@ main {
   margin-bottom: 40px;
 }
 
-.img-margin {
+.img-room {
+  width: 100%;
+  border-radius: 8px;
   margin-bottom: 40px;
+  display: block;
 }
 
 .text-margin-bottom > p {
