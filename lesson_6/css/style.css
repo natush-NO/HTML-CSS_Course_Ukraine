@@ -314,8 +314,8 @@ main {
   font-family: "Quicksand", sans-serif;
   padding: 121px 760px 121px 80px;
   background-color: #914cff;
-  background: url("../img/kid_img.png") 813px 0 no-repeat,
-    url("../img/backround_violet_one.png") right 19% no-repeat,
+  background: url("../img/backround_violet_one.png") right 19% no-repeat,
+    url("../img/kid_img.png") 813px 0 no-repeat,
     url("../img/backround_violet_two.png") 0 0 no-repeat,
     url("../img/backround_violet_three.png") 0 0 no-repeat;
 }
