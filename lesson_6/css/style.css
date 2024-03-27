@@ -262,6 +262,10 @@ main {
   margin: 0 auto;
 }
 
+.section-colections-margin-minus {
+  margin-right: -98px;
+}
+
 .collections-section-left {
   max-width: 686px;
   text-align: left;
@@ -316,13 +320,22 @@ main {
     url("../img/backround_violet_three.png") 0 0 no-repeat;
 }
 
+.section-violet {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.conteiner-violet-margin-minus {
+  margin-right: -133px;
+}
+
 .violet-text {
   max-width: 600px;
   color: #fff;
-  background-position: 80% 80%;
   text-align: left;
   display: inline-block;
-  margin: 121px 133px 121px 80px;
+  vertical-align: top;
+  margin: 121px 133px 121px 0;
 }
 
 .titel-violet {
@@ -349,6 +362,7 @@ main {
 }
 
 .violet-bild {
+  max-width: 515px;
   display: inline-block;
   vertical-align: top;
 }
