@@ -127,7 +127,7 @@ main {
   background-color: rgb(198, 208, 8);
 }
 
-.ooo {
+.yes {
   width: 300px;
   height: 110px;
   margin: -100px 0 0 1075px;
@@ -135,7 +135,7 @@ main {
   font-size: 0;
 }
 
-.ooo:hover {
+.yes:hover {
   width: 300px;
   height: 200px;
   text-align: center;
@@ -150,11 +150,11 @@ main {
   margin: -120px 0 0 900px;
 }
 
-.ooo :nth-child(1) {
+.yes :nth-child(1) {
   margin-bottom: 60px;
 }
 
-.ooo :nth-child(2) {
+.yes :nth-child(2) {
   color: rgba(0, 0, 255, 0.844);
 }
 
