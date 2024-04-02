@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+@import url("reset.css");
+
+main {
+  max-width: 2000px;
+  margin: 0 auto;
+  background-color: #258fda5a;
+  padding: 50px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.content_top {
+  max-width: 1290px;
+  border: 3px solid #000;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+.content_top p:first-child {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.icon-pay-middle {
+  max-width: 1290px;
+  border: 3px solid #000;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 15px 0;
+  border-radius: 20px;
+}
+
+.icon-pay-middle p:first-child {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.icon-pay-middle *:not(:first-child, :last-child) {
+  margin-right: 30px;
+}
+
+.icon-pay-left {
+  max-width: 1290px;
+  border: 3px solid #000;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 15px 0;
+  border-radius: 20px;
+}
+
+.icon-pay-left p:first-child {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.icon-pay-left *:not(:first-child) {
+  display: block;
+  margin-left: 50px;
+}
+
+.icon-pay-left *:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.icon-questtion {
+  max-width: 1290px;
+  text-align: center;
+  border: 3px solid #000;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 15px 0;
+  border-radius: 20px;
+}
+
+.icon-questtion p:first-child {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.icon-questtion img {
+  display: block;
+  margin: 0 auto;
+}
+
+.icon-questtion img:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.icon-bottom {
+  max-width: 1290px;
+  border: 3px solid #000;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 15px 0;
+  border-radius: 20px;
+}
+
+.icon-bottom p:first-child {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.icon-bottom img:nth-child(2),
+.icon-bottom img:nth-child(3),
+.icon-bottom img:nth-child(4),
+.icon-bottom img:nth-child(5) {
+  display: inline-block;
+}
+
+.icon-bottom img:not(:last-child) {
+  margin-right: 30px;
+}
+
+.picture {
+  max-width: 1290px;
+  text-align: center;
+  border: 3px solid #000;
+  margin: 0 auto;
+  padding: 15px 0;
+  border-radius: 20px;
+}
+
+.picture p:first-child {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
