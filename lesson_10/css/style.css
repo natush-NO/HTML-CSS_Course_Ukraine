@@ -1,0 +1,224 @@
+@import url("fonts.css");
+
+@import url("reset.css");
+
+.wrapper {
+  min-height: 100%;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+  background-color: #7d7878;
+  overflow: auto;
+}
+
+/* Header */
+
+.header {
+  background-color: #fff;
+}
+
+/* Header sticky */
+
+.header--sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  margin-bottom: 700px;
+}
+
+.header__container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 50px 0;
+  position: relative;
+}
+
+/* Button */
+
+.header__container-button {
+  position: absolute;
+  top: 27px;
+  left: 293px;
+}
+
+.header__button img:not(:last-child) {
+  margin-right: 10px;
+}
+
+.header__button span {
+  font-size: 19px;
+  line-height: 1.26;
+  color: #fff;
+}
+
+/* До ботума ми не задаємо фіусований розмір */
+
+.button {
+  padding: 11px 20px;
+  font-size: 0;
+  border-radius: 8px;
+  position: relative;
+  background: #ffbc57;
+  display: inline-block;
+}
+
+.button:hover {
+  text-decoration: underline;
+  text-decoration-line: solid;
+  text-decoration-color: #fff;
+}
+
+.header__menu {
+  position: absolute;
+  top: calc(100% + 20px);
+  left: 0;
+}
+
+.menu {
+  max-width: 623px;
+  width: 100%;
+  color: #2b2929;
+  visibility: hidden;
+  font-size: 0;
+}
+
+/* Посилання на випадаюче меню */
+.menu:target {
+  visibility: visible;
+}
+
+/* список меню */
+.menu__list {
+  padding: 8px 0;
+  font-size: 20px;
+  line-height: 1.4;
+  position: relative;
+  background-color: #fff;
+  max-width: 300px;
+  border-radius: 8px 0 0 8px;
+}
+
+.menu__list:hover span {
+  text-decoration: underline;
+  text-decoration-line: solid;
+  text-decoration-color: #311e00;
+}
+
+.menu__list:after {
+  content: "";
+  background-color: #ffbc57;
+  width: 5px;
+  height: calc(100% - 16px);
+  position: absolute;
+  right: 0;
+  top: 8px;
+  /* opacity: 0; */
+}
+
+/* .menu:hover .menu__list:after {
+  opacity: 1;
+} */
+
+.menu__item:hover .sub-menu {
+  visibility: visible;
+}
+
+/* посилання оранжеве */
+.menu__link {
+  padding: 10px 54px 10px 30px;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  background: url(../img/icon.svg) 93% center no-repeat;
+}
+
+.menu__link img {
+  margin-right: 15px;
+}
+
+.menu__link * {
+  vertical-align: middle;
+}
+
+/* посилання оранжеве при hover, з додаванням чорної стрілки */
+.menu__item:hover .menu__link {
+  background: #ffbc57 url(../img/icon-black.svg) 93% center no-repeat;
+}
+
+.menu__sub {
+  position: absolute;
+  top: 0;
+  left: 100%;
+
+  /* Для відображння контенту на всю висоту контенту */
+  height: 100%;
+
+  /* Для відображння контенту на всю ширину контенту */
+  width: 100%;
+}
+
+.sub-menu {
+  font-size: 19px;
+  line-height: 2.1;
+  font-weight: 400;
+  background-color: #fff;
+  border-radius: 0 8px 8px 0;
+  padding: 20px 20px 0 35px;
+  visibility: hidden;
+  overflow-y: auto;
+  border-radius: 0 8px 8px 0;
+}
+
+.sub-menu__item:hover {
+  background: #ffbc5795;
+}
+
+.sub-menu__link {
+  /* padding: 0 20px 0 30px; */
+  width: 100%;
+}
+
+.sub-menu__link:hover {
+  text-decoration: underline;
+  text-decoration-line: solid;
+  text-decoration-color: #311e00;
+}
+
+/* ============================================================== */
+
+.main {
+  padding: 50px 0;
+}
+
+.colon-goods {
+  max-width: 250px;
+  font-size: 20px;
+  line-height: 1.4;
+  background: url("../img/frame.svg") 0 0 no-repeat;
+  border-radius: 8px;
+  box-shadow: -3px 4px 15px 0px rgba(0, 0, 0, 0.06);
+  position: relative;
+  margin: 0 auto;
+}
+
+.colon-goods__titel {
+  color: var(--Theme-Dark, #2b2929);
+  /* text-align: left; */
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.colon-goods__number {
+  color: var(--Theme-Grey-light, #b1b1b1);
+  /* text-align: right; */
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.colon-goods__arrow {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+}
