@@ -6,9 +6,14 @@
   min-height: 100%;
   font-family: "Proxima Nova", sans-serif;
   font-weight: 600;
-  background-color: #7d7878;
+  /* background-color: #7d7878; */
   overflow: auto;
 }
+
+/* пробувала я зробити фон появу, але покищо не дійшло */
+/* .header__container-button:hover .wrapper {
+  background-color: #7d7878;
+} */
 
 /* Header */
 
@@ -194,7 +199,9 @@
   max-width: 250px;
   font-size: 20px;
   line-height: 1.4;
-  background: url("../img/frame.svg") 0 0 no-repeat;
+
+  /* гралась я довго з цим, і нічого не вийшло з цього */
+  /* background: url("../img/frame.svg") 0 0 no-repeat; */
   border-radius: 8px;
   box-shadow: -3px 4px 15px 0px rgba(0, 0, 0, 0.06);
   position: relative;
@@ -210,7 +217,7 @@
 }
 
 .colon-goods__number {
-  color: var(--Theme-Grey-light, #b1b1b1);
+  color: #b1b1b1;
   /* text-align: right; */
   position: absolute;
   right: 20px;
