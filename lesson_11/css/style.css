@@ -5,17 +5,17 @@
 body {
   background-color: rgb(193, 180, 223);
   max-width: 2000px;
+  overflow: auto;
   margin: 0 auto;
 }
 
 .wrapper {
+  max-width: 2000px;
   min-height: 100%;
   font-size: 50px;
   text-align: center;
   font-weight: 600;
-  overflow: clip;
   font-family: "Proxima Nova", sans-serif;
-  max-width: 2000px;
   margin: 0 auto;
 }
 
@@ -41,7 +41,6 @@ body {
 /* 1 */
 .header-working-out__transform--translate {
   background-color: rgba(198, 79, 148, 0.2);
-  /* position: absolute; */
   top: 20px;
   left: 400px;
 }
