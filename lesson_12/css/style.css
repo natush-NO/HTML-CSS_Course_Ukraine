@@ -1,0 +1,561 @@
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+  background-color: rgb(193, 180, 223);
+  max-width: 2000px;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 2000px;
+  min-height: 100%;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Proxima Nova", sans-serif;
+  margin: 0 auto;
+}
+
+.header-working-out {
+  max-width: 2000px;
+  padding: 20px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.header-working-out__transform {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+}
+
+.header-working-out__item-transform {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+/* 1 */
+.header-working-out__transform--translate {
+  background-color: rgba(198, 79, 148, 0.2);
+  top: 20px;
+  left: 400px;
+}
+
+.header-working-out__item-transform--translate {
+  background-color: #17acc033;
+
+  /* Задання для обох параметрів значення */
+  transform: translate(50px, 30px);
+  /* Або так, теж задання для обох параметрів значення*/
+  /* transform: translateX(10px) translateY(10px); */
+  /* ------------------------------------------------------------------------- */
+  /* Тут який стоїть нижче по коду, той і буде відображітись на сторінці, а верхній уже ні */
+  /* transform: translateX(10px);
+  transform: translateY(10px); */
+}
+
+/* 2 */
+.header-working-out__transform--translate-percentages {
+  background-color: rgba(198, 79, 148, 0.2);
+  top: 20px;
+  left: 1200px;
+}
+
+.header-working-out__item-transform--translate-percentages {
+  /* background-color: #285ad850; */
+  background-color: #17acc033;
+  transform: translate(-17%, 10%);
+  /* Різниця між position: relativ; заключається в тому, що вимірюються відстотки від самого елементу. 
+  А при position: relativ; вимарюється відсоток від батьківського елементу. 
+  Та якщо Б.Е. не задано чітку висоту, тоді параметр висоти і не буде пряцювати */
+}
+
+/* 3 */
+.header-working-out__transform--scale {
+  background-color: #d907703c;
+  position: absolute;
+  top: 400px;
+  left: 250px;
+}
+
+.header-working-out__item-transform--scale {
+  background-color: #8ba0d48b;
+  transform: scale(0.9);
+}
+
+/* 4 */
+.header-working-out__transform--scale-big {
+  background-color: #d907703c;
+  top: 400px;
+  left: 800px;
+}
+
+.header-working-out__item-transform--scale-big {
+  background-color: #8ba0d48b;
+  transform: scale(1.2, 1.2);
+}
+
+/* 5 */
+.header-working-out__transform--scale-another {
+  background-color: #d907703c;
+  top: 400px;
+  left: 1350px;
+}
+
+.header-working-out__item-transform--scale-another {
+  background-color: #8ba0d48b;
+
+  font-size: 40px;
+  transform: scale(-1, 1);
+}
+
+/* 6 */
+.header-working-out__transform--rotate {
+  background-color: #9d71873c;
+  top: 800px;
+  left: 250px;
+}
+
+.header-working-out__item-transform--rotate {
+  background-color: #2b60e64b;
+  transform: rotate(60deg);
+}
+
+/* 7 */
+.header-working-out__transform--rotate-y {
+  background-color: #9d71873c;
+  top: 800px;
+  left: 800px;
+}
+
+.header-working-out__item-transform--rotate-y {
+  background-color: #2b60e64b;
+  transform: rotateY(40deg);
+}
+
+/* 8 */
+.header-working-out__transform--rotate-x {
+  background-color: #9d71873c;
+  top: 800px;
+  left: 1350px;
+}
+
+.header-working-out__item-transform--rotate-x {
+  background-color: #2b60e64b;
+  transform: rotateX(-20deg);
+}
+
+/* 9 */
+.header-working-out__transform--skew {
+  background-color: #cd507e5d;
+  top: 1200px;
+  left: 500px;
+}
+
+.header-working-out__item-transform--skew {
+  background-color: #243f8370;
+
+  /*  Нахиляє об'єкт, змінюючи його форму */
+  transform: skew(20deg, 10deg);
+  /* transform: skewX(0deg); */
+  /* transform: skewY(0deg); */
+}
+
+/* 10 */
+.header-working-out__transform--matrix {
+  background-color: rgba(214, 23, 90, 0.139);
+  top: 1200px;
+  left: 1100px;
+}
+
+.header-working-out__item-transform--matrix {
+  font-size: 30px;
+  background-color: #0e44ce70;
+
+  /*
+transform: matrix(
+1- a: це коефіцієнт масштабування у горизонтальному напрямку (вісь X).
+2- b: це коефіцієнт нахилу у горизонтальному напрямку (вісь X).
+3- c: це коефіцієнт нахилу у вертикальному напрямку (вісь Y).
+4- d: це коефіцієнт масштабування у вертикальному напрямку (вісь Y).
+5- e: це зсув у горизонтальному напрямку (вісь X).
+6- f: це зсув у вертикальному напрямку (вісь Y).); 
+*/
+
+  /* --------------------------------------------------------------------------------------------------- */
+  /* 
+1- Коефіцієнт масштабування у горизонтальному напрямку (вісь X) - a: 
+Цей параметр визначає, наскільки елемент буде масштабуватися у горизонтальному напрямку.
+ Якщо a більше 1, елемент буде збільшений по ширині. 
+ Якщо a менше 1, елемент буде зменшений по ширині. Якщо a дорівнює 1, масштабування не відбудеться.
+ 
+2- Коефіцієнт нахилу у горизонтальному напрямку (вісь X) - b: 
+Цей параметр визначає, наскільки елемент буде нахилено у горизонтальному напрямку. 
+Позитивне значення b викличе нахил вправо, а від'ємне значення - вліво. Я
+кщо b дорівнює 0, нахил не відбудеться.
+
+3- Коефіцієнт нахилу у вертикальному напрямку (вісь Y) - c:
+ Цей параметр визначає, наскільки елемент буде нахилено у вертикальному напрямку.
+Позитивне значення c викличе нахил вниз, а від'ємне значення - вгору. 
+Якщо c дорівнює 0, нахил не відбудеться.
+
+4- Коефіцієнт масштабування у вертикальному напрямку (вісь Y) - d:
+ Цей параметр визначає, наскільки елемент буде масштабуватися у вертикальному напрямку. 
+ Якщо d більше 1, елемент буде збільшений по висоті. Якщо d менше 1, елемент буде зменшений по висоті. 
+ Якщо d дорівнює 1, масштабування не відбудеться.
+
+5- Коефіцієнт зсуву у горизонтальному напрямку (вісь X) - e:
+Цей параметр визначає зсув елемента у горизонтальному напрямку. Позитивне значення e викличе зсув вправо, а від'ємне - вліво.
+
+6- Коефіцієнт зсуву у вертикальному напрямку (вісь Y) - f:
+Цей параметр визначає зсув елемента у вертикальному напрямку. Позитивне значення f викличе зсув вниз, а від'ємне - вгору.
+ */
+
+  /* --------------------------------------------------------------------------------------------------- */
+
+  /* 
+1- a = 2: Це коефіцієнт масштабування у горизонтальному напрямку (вісь X). Значення 2 означає, що елемент буде збільшений вдвічі по ширині.
+2- b = -1: Це коефіцієнт нахилу у горизонтальному напрямку (вісь X). Значення -1 вказує на нахил вліво.
+3- c = 1: Це коефіцієнт нахилу у вертикальному напрямку (вісь Y). Значення 1 вказує на нахил вниз.
+4- d = 0.8: Це коефіцієнт масштабування у вертикальному напрямку (вісь Y). Значення 0.8 означає, що елемент буде збільшений на 80% по висоті. 
+5- e = 0: Це коефіцієнт зсуву у горизонтальному напрямку (вісь X). Значення 0 вказує на відсутність зсуву.
+6- f = 0: Це коефіцієнт зсуву у вертикальному напрямку (вісь Y). Значення 0 вказує на відсутність зсуву.
+*/
+  transform: matrix(1, -1, 1, 0.8, 0, 0);
+}
+
+/* 11 */
+.header-working-out__transform--matrix-multi {
+  background-color: rgba(214, 23, 90, 0.139);
+  top: 1550px;
+  left: 250px;
+}
+
+.header-working-out__item-transform--matrix-multi {
+  font-size: 30px;
+  background-color: #0e44ce70;
+  transform: translate(1px, 1px) scale(0.9) rotateY(5deg) skew(-10deg);
+}
+
+/* 12 */
+.header-working-out__transform--origin {
+  background-color: #ca0d6c87;
+  font-size: 30px;
+
+  /* Задається батьківському елементу */
+  transform-origin: bottom right;
+  top: 1550px;
+  left: 1350px;
+}
+
+.header-working-out__item-transform--origin {
+  background-color: #6b8bdd70;
+  transform: translate(1px, 1px) scale(0.9) rotateY(5deg) skew(-10deg);
+}
+
+/* ----------------------------------------------------------- */
+/* 3D */
+.conteiner-transform3D {
+  width: 500px;
+  height: 100px;
+  background-color: #c7689887;
+  padding: 20px 0;
+  position: relative;
+  top: 1900px;
+  left: 700px;
+}
+
+/* 13 */
+.header-working-out__transform--perspective {
+  background-color: #f097c2c3;
+  font-size: 30px;
+  top: 2200px;
+  left: 250px;
+
+  /* Задається батьківському елементу */
+  perspective: 600px;
+}
+
+.header-working-out__item-transform--perspective {
+  background-color: #0b4bec70;
+  transform: rotateX(45deg);
+}
+
+/* 14 */
+.header-working-out__transform--perspective-origin {
+  background-color: #f097c2c3;
+  font-size: 30px;
+  top: 2200px;
+  left: 800px;
+
+  /* Задається батьківському елементу */
+  perspective: 900px;
+  perspective-origin: right;
+}
+
+.header-working-out__item-transform--perspective-origin {
+  background-color: #0b4bec70;
+  transform: rotateY(30deg);
+}
+
+/* 15 */
+.header-working-out__transform--translate3D {
+  background-color: #f097c2c3;
+  font-size: 30px;
+  top: 2200px;
+  left: 1350px;
+
+  /* Задається батьківському елементу */
+  perspective: 400px;
+}
+
+.header-working-out__item-transform--translate3D {
+  background-color: #0b4bec70;
+  transform: translate3d(0, -60px, 100px);
+}
+
+/* 16 */
+.header-working-out__transform--scale3D {
+  background-color: #f097c2c3;
+  font-size: 30px;
+  top: 2550px;
+  left: 500px;
+
+  /* Задається батьківському елементу */
+  perspective: 200px;
+}
+
+.header-working-out__item-transform--scale3D {
+  background-color: #0b4bec70;
+  transform: scale3d(1.2, 1, 1);
+}
+
+/* 17 */
+.header-working-out__transform--rotate3D {
+  background-color: #f097c2c3;
+  font-size: 30px;
+  top: 2550px;
+  left: 1100px;
+
+  /* Задається батьківському елементу */
+  perspective: 300px;
+}
+
+.header-working-out__item-transform--ratate3D {
+  background-color: #0b4bec70;
+  transform: rotate3d(5, -10, 2, 10deg);
+}
+
+/* -------------------------------- */
+/* matrix3d */
+/* Не опрацьовувала */
+
+/* 18 */
+.header-working-out__transform--multi3D {
+  background-color: #f097c2c3;
+  font-size: 30px;
+  top: 2900px;
+  left: 250px;
+
+  /* Задається батьківському елементу */
+  perspective: 500px;
+}
+
+.header-working-out__item-transform--multi3D {
+  background-color: #0b4bec70;
+  transform: translate3d(100px, -2px, 20px) scale3d(1.2, 1, 1)
+    rotate3d(5, -2, 2, 5deg);
+}
+
+/* 19 */
+.header-working-out__transform--preserve-3D {
+  background-color: #f097c2c3;
+  font-size: 40px;
+  top: 2900px;
+  left: 1350px;
+
+  /* Задається батьківському елементу */
+  perspective: 500px;
+  transform-style: preserve-3d;
+}
+
+.header-working-out__item-transform--preserve-3D {
+  background-color: #0b4bec70;
+  transform: rotateX(55deg);
+}
+
+/* .header-working-out__transform--preserve-3D:hover
+  .header-working-out__item-transform--preserve-3D {
+  transform: rotateX(0);
+} */
+
+/* Прапор */
+/* ------------------------------- */
+/* backface-visibility: visible; за замовчуванняям */
+/* backface-visibility: hiden; ---- працює з transform: rotate(), визначає видимість (задньої сторони) елемента, при його обертанні  */
+.section-flag {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  top: 3250px;
+  left: 700px;
+  perspective: 1000px;
+}
+
+.section-flag img {
+  max-width: 100%;
+}
+
+.flag-front,
+.flag-back {
+  transition: all 0.9s;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.flag-back {
+  transform: rotateY(180deg);
+}
+
+.flag-front {
+  /* backface-visibility: hiden; ---- працює з transform: rotate(), визначає видимість (задньої сторони) елемента, при його обертанні  */
+  /* Задається батьківському елементу */
+  backface-visibility: hidden;
+  transform: rotateY(0deg);
+}
+
+.section-flag:hover .flag-front {
+  transform: rotateY(-180deg);
+}
+
+.section-flag:hover .flag-back {
+  transform: rotateY(0deg);
+}
+
+/* Типу автомобіль */
+
+footer {
+  max-width: 2000px;
+  position: relative;
+  top: 3200px;
+  left: 100px;
+}
+
+.box-car {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  border-radius: 50%;
+  background: #e22182fc url(../img/pattern.jpg) 0 / 100% no-repeat;
+  position: absolute;
+  top: 0;
+  left: 550px;
+  z-index: 2;
+}
+
+.box-car:hover {
+  box-shadow: 0 0 30px 20px rgba(232, 20, 147, 0.513),
+    0 0 30px 20px rgba(232, 20, 147, 0.513);
+}
+
+.door-car {
+  width: 200px;
+  height: 300px;
+  /* background-color: #000; */
+  border-left: 7px solid #fff;
+  box-shadow: inset 5px 0 7px 7px rgb(224, 209, 209);
+  border-radius: 20px 60px 5px 0;
+  background-color: #dac9d1fc;
+  z-index: 6;
+  position: absolute;
+  top: 130px;
+  left: 750px;
+}
+
+.door-car-openly {
+  width: 200px;
+  height: 300px;
+  border-right: 7px solid #fff;
+  box-shadow: inset 5px 0 7px 7px rgb(224, 209, 209);
+  border-radius: 60px 20px 5px 0;
+  background-color: #dac9d1fc;
+  z-index: 3;
+  position: absolute;
+  top: 130px;
+  left: 555px;
+  visibility: hidden;
+}
+
+.door-car,
+.doo-car-openly {
+  transition: all 0.9s;
+}
+
+.door-car:hover + .door-car-openly {
+  visibility: visible;
+  border: solid 1px #fff;
+}
+
+.doo-car:hover {
+  background-color: #e22182fc;
+}
+
+.stand-car {
+  width: 350px;
+  height: 10px;
+  background-color: rgb(227, 217, 217);
+  border-radius: 10%;
+  box-shadow: 0 2px 3px 2px rgba(255, 255, 255, 0.599);
+  position: absolute;
+  top: 427px;
+  left: 751px;
+  z-index: 2;
+}
+
+.wheel-left {
+  width: 200px;
+  height: 200px;
+  background: url(../img/wheel.jpeg) 0 0/ 100% no-repeat;
+  position: absolute;
+  top: 460px;
+  left: 660px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.wheel-right {
+  width: 200px;
+  height: 200px;
+  background: url(../img/wheel.jpeg) 0 0/ 100% no-repeat;
+  position: absolute;
+  top: 460px;
+  left: 1070px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.wheel-left,
+.wheel-right {
+  transition: all 0.9s;
+}
+
+.wheel-left:hover,
+.wheel-right:hover {
+  /* Для обертання колес */
+  transform: rotate(-360deg);
+}
+
+.yes {
+  width: 2000px;
+  background-color: #09313733;
+  font-size: 200px;
+  color: #fff;
+  position: absolute;
+  top: 1200px;
+  left: 0;
+}
