@@ -602,14 +602,31 @@ footer {
   top: 0;
   left: 550px;
   z-index: 2;
-  animation-name: headlights;
-  animation-duration: 1.5s;
+  animation-name: headlights, box-car-move;
+  animation-duration: 1.3s;
   animation-iteration-count: infinite;
 }
 
 .box-car:hover {
   box-shadow: 0 0 30px 20px rgba(232, 20, 147, 0.513),
     0 0 30px 20px rgba(232, 20, 147, 0.513);
+}
+
+@keyframes box-car-move {
+  0% {
+    top: 0;
+    left: 550px;
+  }
+
+  50% {
+    top: 0;
+    left: 542px;
+  }
+
+  100% {
+    top: 0;
+    left: 540px;
+  }
 }
 
 @keyframes headlights {
@@ -654,6 +671,26 @@ footer {
   position: absolute;
   top: 130px;
   left: 750px;
+  animation-name: door-car-move;
+  animation-duration: 1.3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes door-car-move {
+  0% {
+    top: 130px;
+    left: 750px;
+  }
+
+  50% {
+    top: 130px;
+    left: 742px;
+  }
+
+  100% {
+    top: 130px;
+    left: 740px;
+  }
 }
 
 .door-car-openly {
@@ -668,6 +705,26 @@ footer {
   top: 130px;
   left: 555px;
   visibility: hidden;
+  animation-name: door-car-openly;
+  animation-duration: 1.3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes door-car-openly {
+  0% {
+    top: 130px;
+    left: 555px;
+  }
+
+  50% {
+    top: 130px;
+    left: 547px;
+  }
+
+  100% {
+    top: 130px;
+    left: 545px;
+  }
 }
 
 .door-car,
@@ -694,6 +751,26 @@ footer {
   top: 427px;
   left: 751px;
   z-index: 2;
+  animation-name: stand-car-openly;
+  animation-duration: 1.3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes stand-car-openly {
+  0% {
+    top: 427px;
+    left: 751px;
+  }
+
+  50% {
+    top: 427px;
+    left: 743px;
+  }
+
+  100% {
+    top: 427px;
+    left: 741px;
+  }
 }
 
 .wheel-left {
@@ -702,7 +779,7 @@ footer {
   background: url(../img/wheel.jpeg) 0 0/ 100% no-repeat;
   position: absolute;
   top: 460px;
-  left: 660px;
+  left: 670px;
   border-radius: 50%;
   z-index: 2;
   /* transition-duration: 8s; */
@@ -718,12 +795,12 @@ footer {
   background: url(../img/wheel.jpeg) 0 0/ 100% no-repeat;
   position: absolute;
   top: 460px;
-  left: 1070px;
+  left: 1035px;
   border-radius: 50%;
   z-index: 2;
   animation-name: go-two, go-rotate;
   animation-duration: 1.3s;
-  animation-delay: 0.6s;
+  animation-delay: 0.8s;
   animation-iteration-count: infinite;
   animation-timing-function: cubic-bezier(1, 0.535, 0.75, 0.75);
 }
@@ -745,7 +822,7 @@ footer {
   }
   100% {
     top: 435px;
-    left: 658px;
+    left: 665px;
   }
 }
 
@@ -755,7 +832,7 @@ footer {
   }
   100% {
     top: 435px;
-    left: 1068px;
+    left: 1030px;
   }
 }
 
