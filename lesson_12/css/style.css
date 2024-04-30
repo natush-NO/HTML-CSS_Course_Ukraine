@@ -873,7 +873,7 @@ footer {
   position: absolute;
   top: 1200px;
   left: 0;
-  animation: yes-animation 6s infinite;
+  animation: yes-animation 6s infinite alternate;
 }
 
 @keyframes yes-animation {
