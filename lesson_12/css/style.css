@@ -833,7 +833,7 @@ footer {
 
 @keyframes go {
   0% {
-    translate: (0, 0);
+    translate: (0);
   }
 
   100% {
@@ -844,7 +844,7 @@ footer {
 
 @keyframes go-two {
   0% {
-    translate: (0, 0);
+    translate: (0);
   }
 
   100% {
@@ -855,7 +855,7 @@ footer {
 
 @keyframes go-rotate {
   0% {
-    translate: (0, 0);
+    translate: (0);
   }
 
   100% {
