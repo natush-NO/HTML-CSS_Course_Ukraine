@@ -798,15 +798,15 @@ footer {
   left: 1035px;
   border-radius: 50%;
   z-index: 2;
-  /* animation-name: go-two, go-rotate;
+  animation-name: go-two, go-rotate;
   animation-duration: 1.3s;
   animation-timing-function: cubic-bezier(1, 0.535, 0.75, 0.75);
   animation-iteration-count: infinite;
-  animation-delay: 0.8s; */
+  animation-delay: 0.8s;
 
   /* Не працює універсальний запис, я не розумію чому */
-  animation: go-two go-rotate 1.3s cubic-bezier(1, 0.535, 0.75, 0.75) infinite
-    0.8s;
+  /* animation: go-two go-rotate 1.3s cubic-bezier(1, 0.535, 0.75, 0.75) infinite
+    0.8s; */
 }
 
 /* Порядок запису властивостей:
