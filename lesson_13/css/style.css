@@ -426,6 +426,7 @@ header {
 
 .footer__section-footer {
   max-width: 1290px;
+  padding-bottom: 70px;
   margin: 0 auto;
 }
 
