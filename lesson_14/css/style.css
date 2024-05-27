@@ -279,6 +279,7 @@ body {
   flex-basis: 0 0 680px;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 20px;
   border-radius: 8px;
   background-color: #f8f8f8;
