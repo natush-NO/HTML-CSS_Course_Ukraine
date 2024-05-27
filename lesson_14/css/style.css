@@ -307,36 +307,38 @@ body {
   line-height: 1.4;
 }
 
-.button {
-  flex-basis: 0 0 102px;
+.button-link {
+  width: 142px;
+  height: 50px;
   background: #ffbc57;
   border-radius: 8px;
   padding: 13px 20px;
+  vertical-align: middle;
 }
 
-.button:focus-visible,
-.button__link:focus-visible {
+.button-link:hover {
+  background-color: #fcab32;
+}
+
+.button-link:focus-visible,
+.button-link__link-button:focus-visible {
   outline: 2px solid rgba(121, 89, 41, 0.457);
 }
 
-.button__span {
+.button-link__span {
   color: #fff;
   font-size: 19px;
   font-weight: 600;
   line-height: 1.26;
 }
 
-.button__span::before {
+.button-link__span::before {
   content: "";
   background: url(../img/map-icon.png) 0 0 / 100% no-repeat;
   width: 24px;
   height: 24px;
   margin-right: 10px;
   vertical-align: middle;
-}
-
-.button:hover {
-  background-color: #fcab32;
 }
 
 footer {
