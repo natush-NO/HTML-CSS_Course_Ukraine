@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 14</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- 
+  Доброго часу доби
+Слава Укарїні!
+Героям Слава!
+ -->
+
+<body>
+
+  <div class="wrapper">
+
+
+    <div class="box">
+
+      <h1 class="box__title">
+        Оформлення замовлення
+      </h1>
+
+      <div class="box__container">
+
+        <header class="header">
+
+          <div class="border">
+
+
+            <div class="header__container container-header">
+
+              <h2 class="container-header__title">
+                Інформація про покупця
+              </h2>
+
+              <form class="container-header__form form" method="post" action="#">
+
+                <input class="form__input" required type="text" tabindex="1" name="form[]" value="Прізвище"
+                  placeholder="Прізвище">
+
+                <input class="form__input" required type="tel" tabindex="4" name="form[]" value="Контактний телефон"
+                  placeholder="Контактний телефон">
+
+                <input class="form__input" required type="text" tabindex="2" name="form[]" value="Ім’я"
+                  placeholder="Ім’я">
+
+                <input class="form__input" required type="email" tabindex="5" name="form[]" value="E-mail"
+                  placeholder="E-mail">
+
+                <input class="form__input" required type="text" tabindex="3" name="form[]" value="По батькові"
+                  placeholder="По батькові">
+
+
+
+                <button class="form__button" type="submit"> </button>
+
+              </form>
+
+              <form class="form-radio" action="#">
+                <label class="form-radio__label">
+                  <input class="form-radio__input" tabindex="6" value="так" type="radio" name="i-am-not">
+                  <span class="form-radio__span">Отримуватиме замовлення інша людина</span>
+                </label>
+                <button class="form-radio__button" type="submit"></button>
+              </form>
+            </div>
+
+          </div>
+        </header>
+
+        <main class="main">
+
+          <div class="border">
+
+            <div class="main__container container-main">
+
+              <h3 class="container-main__title">
+                Вибір способу доставки
+              </h3>
+
+              <form class="container-main__form-radio main-radio" action="#">
+
+                <div class="main-radio__boxs" tabindex="7">
+                  <input class="main-radio__input" value="Самовивіз" checked type="radio" name="delivery" id="choice-1">
+                  <label class="main-radio__label main-radio__label--1" for="choice-1">
+                    <span class="main-radio__as main-radio__as--1">Самовивіз із магазину</span>
+                    <span class="main-radio__span">Бесплатно</span>
+                  </label>
+                </div>
+
+                <div class="main-radio__boxs" tabindex="8">
+                  <input class=" main-radio__input" type="radio" value="Нова почта" name="delivery" id="choice-2">
+                  <label class="main-radio__label main-radio__label--2" for="choice-2">
+                    <span class="main-radio__as">Доставка Нова Пошта</span>
+                    <span class="main-radio__span">≈ від 500 грн</span>
+                  </label>
+                </div>
+
+                <div class="main-radio__boxs" tabindex="9">
+                  <input class=" main-radio__input" type="radio" value="Курєр" name="delivery" id="choice-3">
+                  <label class="main-radio__label main-radio__label--3" for="choice-3">
+                    <span class="main-radio__as">Доставка кур'єром</span>
+                    <span class="main-radio__span">≈ від 200 грн</span>
+                  </label>
+                </div>
+
+                <button class="container-main__button" type="submit"></button>
+              </form>
+
+              <div class="container-main__location">
+
+                <img class="container-main__img" src="img/location.svg" alt="Зкачка локації">
+
+                <div class="container-main-text">
+                  <span class="container-main__time">
+                    Графік роботи: щодня з 9:00 до 18:00
+                  </span>
+                  <span class="container-main__where">
+                    м. Київ, пров. Ізяславський 52, пов. 2
+                  </span>
+                </div>
+
+                <button class="container-main__button button" tabindex="10">
+                  <a href="https://www.google.de/maps" tabindex="-1 class=" button__link" target="_blank"
+                    title="Перейти на Google Maps">
+                    <span class="button__span">На мапі</span>
+                  </a>
+                </button>
+
+              </div>
+            </div>
+
+          </div>
+
+        </main>
+
+
+        <footer class="footer">
+
+          <div class="border">
+
+            <div class="footer__container container-footer">
+
+              <h4 class="container-footer__title">
+                Вибір способу оплати
+              </h4>
+
+              <form class="container-footer__form form-footer" method="post" action="#">
+
+                <label class="form-footer__label form-footer__label" tabindex="11">
+                  <input class="form-footer__input" value="Готівкою при отриманні" type="radio" name="payment">
+                  <span class="form-footer__span">Готівкою при отриманні (Післясплата)</span>
+
+                </label>
+
+                <label class="form-footer__label" tabindex="12">
+                  <input class="form-footer__input" value="Оплата карткою на сайті" checked type="radio" name="payment">
+                  <span class="form-footer__span">Оплата карткою на сайті</span>
+                  <img class="form-footer__img" src="img/master-card-logo.svg" alt="Лого Мастер карт">
+                  <img class="form-footer__img" src="img/visa-card-logo.svg" alt="Лого Віза">
+                </label>
+
+                <label class="form-footer__label" tabindex="13">
+                  <input class="form-footer__input" value="Privat Pay" type="radio" name="payment">
+                  <span class="form-footer__span">Privat Pay</span>
+                  <img class="form-footer__img" src="img/private-pay-logo.svg" alt="Лого Віза">
+                </label>
+
+                <label class="form-footer__label" tabindex="14">
+                  <input class="form-footer__input" value="Кредит від Krovato" type="radio" name="payment">
+                  <span class="form-footer__span">Кредит від Krovato</span>
+                </label>
+
+                <label class="form-footer__label" tabindex="15">
+                  <input class="form-footer__input" value="Оплата частинами ПриватБанк" type="radio" name="payment">
+                  <span class="form-footer__span">Оплата частинами ПриватБанк</span>
+                  <img class="form-footer__img" src="img/private-credit-logo.svg" alt="Лого Віза">
+                </label>
+
+                <label class="form-footer__label" tabindex="16">
+                  <input class="form-footer__input" value="Оплата частинами МоноБанк" type="radio" name="payment">
+                  <span class="form-footer__span">Оплата частинами МоноБанк</span>
+                  <img class="form-footer__img" src="img/mono-bank-logo.svg" alt="Лого Віза">
+                </label>
+
+                <button class="form-footer__button" type="submit"></button>
+              </form>
+            </div>
+
+          </div>
+
+          <div class="border">
+
+            <div class="footer__container-bottom container-bottom">
+
+              <h5 class="container-bottom__title">
+                Коментар до замовлення
+              </h5>
+
+              <textarea class="footer__textarea textarea" tabindex="17" name="form[]"
+                placeholder="Ваш коментар"></textarea>
+
+              <button class="footer__order-button" tabindex="18" type="button">
+                ОФОРМИТИ ЗАМОВЛЕННЯ
+              </button>
+            </div>
+
+          </div>
+        </footer>
+
+      </div>
+    </div>
+  </div>
+</body>
