@@ -369,6 +369,7 @@ footer {
 .form-footer__label {
   position: relative;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .form-footer__label:hover {
