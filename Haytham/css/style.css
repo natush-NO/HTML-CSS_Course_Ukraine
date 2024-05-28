@@ -1,0 +1,15 @@
+.wrapper {
+  min-height: 100%;
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  width: 100%;
+  background-color: #faf7ed;
+  text-align: center;
+}
+
+.footer__img-logo {
+}
