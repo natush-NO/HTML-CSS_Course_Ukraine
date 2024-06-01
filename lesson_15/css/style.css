@@ -29,15 +29,6 @@
   padding: 15px 0;
 }
 
-@media (min-width: 1100px) {
-  .top-header__container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
-  }
-}
-
 .top-header__ul {
   flex-basis: 560px;
   display: flex;
