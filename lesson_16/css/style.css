@@ -334,7 +334,7 @@
 
 @media (any-hover: hover) {
   .information__link-tel:hover {
-    transform: scale(0, 9);
+    transform: scale(0.9);
     transition: transform 0.2s;
   }
 }
