@@ -290,28 +290,29 @@
   margin-bottom: 64px;
 }
 
-.dress-style__items {
+.dress-body {
   max-width: 1240px;
   display: grid;
-  grid-template-columns: 407px 267px 407px;
+  /* grid-template-columns: 1fr 1fr; */
   grid-auto-rows: 289px;
   gap: 20px;
   justify-content: center;
 }
 
-.dress-style__items > :nth-child(2) {
-  grid-column: span 2;
-}
-
-.dress-style__items > :nth-child(3) {
-  grid-column: span 2;
+@media (min-width: 1310px) {
+  .dress-body {
+    grid-template-columns: 407px 257px 407px;
+  }
+  .dress-body__link:nth-child(4n + 2),
+  .dress-body__link:nth-child(4n + 3) {
+    grid-column: span 2;
+  }
 }
 
 .dress-body__link {
   border-radius: 20px;
   overflow: hidden;
   position: relative;
-  display: block;
   transition: box-shadow 0.4s;
 }
 
@@ -327,23 +328,16 @@
   font-size: 36px;
   font-weight: 700;
   position: absolute;
-  top: 25px;
-  left: 35px;
+  top: 0px;
+  left: 0px;
+  padding: 25px 36px;
 }
 
-.dress-card__image {
+.dress-body__link img {
   width: 100%;
   height: 100%;
-  overflow: hidden;
-  border-radius: 20px;
-  aspect-ratio: 407/289;
-}
-
-.dress-card__image img {
-  width: 100%;
-  /* height: 100%; */
   object-fit: cover;
-  border-radius: 20px;
+  aspect-ratio: 407 / 289;
 }
 
 @media (max-width: 1309.98px) {
@@ -351,29 +345,18 @@
     grid-template-columns: repeat(auto-fill, minmax(407px, 1fr));
     padding: 0 20px;
   }
-  .dress-style__items > :nth-child(2) {
-    grid-column: span 1;
-  }
-
-  .dress-style__items > :nth-child(3) {
-    grid-column: span 1;
-  }
-  .dress-card__image img {
-    height: 100%;
-  }
 }
 
 @media (max-width: 903.98px) {
   .dress-style__items {
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    padding: 0 20px;
   }
 }
 
 @media (max-width: 500px) {
   .dress-style__items {
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    grid-auto-rows: 230px;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-auto-rows: 200px;
   }
 }
 
@@ -381,8 +364,9 @@
   .dress-card__title-sub {
     font-size: 32px;
     position: absolute;
-    top: 25px;
-    left: 15px;
+    top: 0px;
+    left: 0px;
+    padding: 20px 15px;
   }
 }
 
